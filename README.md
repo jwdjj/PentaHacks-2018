@@ -32,6 +32,15 @@ Open your browser and paste the following url:
 
 *note*: this application is using python 3*
 
+## Directories
+
+- */*           : home page where the user can choose to upload the video or record a video
+- *submission/* : this is where the user record theirselves and then submit the video
+- *login/*      : this page is dedicated for the trainer to login
+- *dashboard/*  : the trainer will be able to view overall data of assesment in charts
+- *data/*       : the trainer can download individual data of the analysis in .csv format
+- *settings/*   : ability to edit profile
+
 ## Deployment
 
 _to be updated_
