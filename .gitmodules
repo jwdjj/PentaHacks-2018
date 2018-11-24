@@ -1,0 +1,3 @@
+[submodule "vidcher/IndicoIo-Python"]
+	path = vidcher/IndicoIo-Python
+	url = https://github.com/IndicoDataSolutions/IndicoIo-Python.git
