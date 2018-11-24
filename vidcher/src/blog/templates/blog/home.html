@@ -1,0 +1,38 @@
+{% extends "blog/base_.html" %}
+{% block content %}
+<div class="content">
+	<div class="container-fluid" align="center">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4" align="center">
+				<div class="card">
+					<div class="header">
+						<h4 class="title">Welcome!</h4>
+					</div>
+					<div class="content">
+						<form>
+							<div class="row">
+								<div class="col-md-1"></div>
+								<div class="col-md-10">
+									<div class="form-group">
+										<a href="#" class="btn btn-info" style="width: 200px; height: 50px;">Upload a File</a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1"></div>
+								<div class="col-md-10">
+									<div class="form-group">
+										<a href="/blog/submission" class="btn btn-info" style="width: 200px; height: 50px;">Record</a>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+</div>
+{% endblock %}
